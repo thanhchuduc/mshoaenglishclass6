@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Học phí</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      text-align: center;
+      font-size: 28px;
+    }
+    select, button {
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      font-size: 28px;
+    }
+    .info {
+      margin-top: 20px;
+      padding: 18px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: #f9f9f9;
+    }
+    .info p {
+      margin: 12px 0;
+      font-size: 24px;
+    }
+    .amount {
+      color: red;
+      font-weight: bold;
+      font-size: 26px;
+    }
+    .content {
+      font-weight: bold;
+      font-size: 24px;
+    }
+    img.qr {
+      margin: 18px 0;
+      max-width: 800px;
+    }
+    .save-btn {
+      display: none; /* ẩn mặc định */
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 22px;
+      background: #007bff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      border: none;
+    }
+    .save-btn:disabled {
+      background: #999;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h2 id="title">Học phí</h2>
+  <select id="studentSelect">
+    <option value="">-- Chọn học sinh --</option>
+  </select>
+
+  <div id="details" class="info" style="display:none;">
+    <p>
+      <strong>Số tiền:</strong> 
+      <span id="fee" class="amount"></span> VNĐ
+    </p>
+    <p>
+      <strong>Nội dung CK:</strong> 
+      <span id="info" class="content"></span>
+    </p>
+    <img id="qr" class="qr" src="" alt="QR Code"/>
+    <br/>
+    <button id="downloadQR" class="save-btn">Lưu ảnh</button>
+  </div>
+
+  <script>
+    const files = {
+      "Lớp Anh 6": "/LopAnh6.json",
+      "Lớp Anh 8.1": "/LopAnh81.json",
+      "Lớp Anh 8.2": "/LopAnh82.json",
+      "Lớp Anh 9": "/LopAnh9.json"
+    };
+
+    async function loadData(sheetName) {
+      const url = files[sheetName];
+      const res = await fetch(url);
+      return await res.json();
+    }
+
+    (async function init() {
+      const sheetName = "Lớp Anh 6"; // mặc định
+      const data = await loadData(sheetName);
+
+      document.getElementById("title").innerText = data[0]?.title || `Học phí ${sheetName}`;
+      const select = document.getElementById("studentSelect");
+
+      data.forEach((s, i) => {
+        const opt = document.createElement("option");
+        opt.value = i;
+        opt.textContent = `${s.class} - ${s.name}`;
+        select.appendChild(opt);
+      });
+
+      const qrImg = document.getElementById("qr");
+      const saveBtn = document.getElementById("downloadQR");
+
+      select.onchange = () => {
+        if (select.value === "") {
+          document.getElementById("details").style.display = "none";
+          return;
+        }
+        const s = data[select.value];
+        const formattedFee = Number(s.fee).toLocaleString("vi-VN");
+        document.getElementById("fee").innerText = formattedFee;
+        document.getElementById("info").innerText = s.info;
+
+        // ẩn nút khi ảnh chưa load
+        saveBtn.style.display = "none";
+
+        // đổi QR
+        qrImg.src = s.qr;
+
+        // khi ảnh load xong mới cho hiện nút
+        qrImg.onload = () => {
+          saveBtn.style.display = "inline-block";
+          saveBtn.onclick = async () => {
+  	  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+
+  	  if (isIOS) {
+   	  // iPhone/iPad: mở tab mới để người dùng giữ tay lưu ảnh
+    	   window.open(s.qr, "_blank");
+ 	   } else {
+   	   // PC / Android: tải trực tiếp
+      	   const resp = await fetch(s.qr);
+    	   const blob = await resp.blob();
+    	   const url = URL.createObjectURL(blob);
+
+   	   const a = document.createElement("a");
+   	   a.href = url;
+   	   a.download = s.info + ".png";
+   	   a.click();
+
+   	   URL.revokeObjectURL(url);
+  	   }
+	  };
+
+        };
+
+        document.getElementById("details").style.display = "block";
+      };
+    })();
+  </script>
+</body>
+</html>

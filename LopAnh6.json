@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Bảo Anh",
+    "class": "6A",
+    "fee": 205000,
+    "info": "6ABaoAnhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=205000&addInfo=6ABaoAnhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Bảo Nam",
+    "class": "6A",
+    "fee": 265000,
+    "info": "6ABaoNamC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6ABaoNamC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Bình Minh",
+    "class": "6A",
+    "fee": 265000,
+    "info": "6ABinhMinhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6ABinhMinhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Đức Khương",
+    "class": "6A",
+    "fee": 265000,
+    "info": "6ADucKhuongC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6ADucKhuongC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Đức Mạnh",
+    "class": "6A",
+    "fee": 205000,
+    "info": "6ADucManhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=205000&addInfo=6ADucManhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Hải Đăng",
+    "class": "6A",
+    "fee": 205000,
+    "info": "6AHaiDangC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=205000&addInfo=6AHaiDangC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Huyền Anh",
+    "class": "6A",
+    "fee": 205000,
+    "info": "6AHuyenAnhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=205000&addInfo=6AHuyenAnhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Khánh Chi",
+    "class": "6A",
+    "fee": 205000,
+    "info": "6AKhanhChiC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=205000&addInfo=6AKhanhChiC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Phạm Minh",
+    "class": "6A",
+    "fee": 265000,
+    "info": "6APhamMinhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6APhamMinhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Minh Trí",
+    "class": "6A1",
+    "fee": 265000,
+    "info": "6A1MinhTriC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A1MinhTriC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Thảo Anh",
+    "class": "6A1",
+    "fee": 265000,
+    "info": "6A1ThaoAnhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A1ThaoAnhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Tuấn Kiệt",
+    "class": "6A1",
+    "fee": 265000,
+    "info": "6A1TuanKietC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A1TuanKietC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Đăng Khoa",
+    "class": "6A2",
+    "fee": 265000,
+    "info": "6A2DangKhoaC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A2DangKhoaC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Duy Khánh",
+    "class": "6A2",
+    "fee": 265000,
+    "info": "6A2DuyKhanhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A2DuyKhanhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Nhật Minh",
+    "class": "6A2",
+    "fee": 265000,
+    "info": "6A2NhatMinhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A2NhatMinhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Nguyệt Ánh",
+    "class": "6A3",
+    "fee": 205000,
+    "info": "6A3NguyetAnhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=205000&addInfo=6A3NguyetAnhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Đặng Gia Bảo",
+    "class": "6A4",
+    "fee": 265000,
+    "info": "6A4DangGiaBaoC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A4DangGiaBaoC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Minh Tuấn",
+    "class": "6A4",
+    "fee": 265000,
+    "info": "6A4MinhTuanC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A4MinhTuanC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Thanh Hằng",
+    "class": "6A4",
+    "fee": 265000,
+    "info": "6A4ThanhHangC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A4ThanhHangC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Trần Bảo",
+    "class": "6A4",
+    "fee": 265000,
+    "info": "6A4TranBaoC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A4TranBaoC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Bảo Trâm",
+    "class": "6A5",
+    "fee": 265000,
+    "info": "6A5BaoTramC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A5BaoTramC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Chí Dũng",
+    "class": "6A5",
+    "fee": 265000,
+    "info": "6A5ChiDungC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A5ChiDungC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Diệu Anh",
+    "class": "6A5",
+    "fee": 265000,
+    "info": "6A5DieuAnhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A5DieuAnhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Vũ Kiệt",
+    "class": "6A5",
+    "fee": 145000,
+    "info": "6A5VuKietC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=145000&addInfo=6A5VuKietC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Tuấn Anh",
+    "class": "6A6",
+    "fee": 245000,
+    "info": "6A6TuanAnhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=245000&addInfo=6A6TuanAnhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Gia Kiệt",
+    "class": "6A7",
+    "fee": 265000,
+    "info": "6A7GiaKietC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A7GiaKietC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Thuỳ Chi",
+    "class": "6A1",
+    "fee": 265000,
+    "info": "6A1ThuyChiC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A1ThuyChiC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  },
+  {
+    "name": "Thuỳ Linh",
+    "class": "6A1",
+    "fee": 265000,
+    "info": "6A1ThuyLinhC6",
+    "qr": "https://img.vietqr.io/image/MB-0989311300-compact2.png?amount=265000&addInfo=6A1ThuyLinhC6&accountName=CHU%20DUC%20THANH",
+    "bank": {
+      "id": "MB",
+      "account": "0989311300",
+      "name": "CHU DUC THANH"
+    }
+  }
+]
